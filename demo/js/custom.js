@@ -584,9 +584,13 @@ if (typeof Object.create !== "function") {
             base.goTo(base.currentItem, speed);
         },
 
+  
         goTo : function (position, speed, drag) {
+           
+       $(document).find('.hotspot').each(function () {$(this).mouseout();});
             var base = this,
                 goToPixel;
+
 
             if (base.isTransition) {
                 return false;
@@ -1531,7 +1535,7 @@ if (typeof Object.create !== "function") {
   //});                       
 //});
  
- $(document).find('.hotspot').each(function () {$(this).mouseout();});
+ //$(document).find('.hotspot').each(function () {$(this).mouseout();});
 
  /* Responsive Image Hotspot Tooltips Scripting */ 
  
