@@ -1523,7 +1523,12 @@ if (typeof Object.create !== "function") {
       });
     });
    
-
+/* jQuery Swipe Hide Event */
+$(document).on("div.owl-buttons","div.owl-next",function(){
+  $("div.data-container").on("swipe",function(){
+    $(this).hide();
+  });                       
+});
  
  /* Responsive Image Hotspot Tooltips Scripting */ 
  
