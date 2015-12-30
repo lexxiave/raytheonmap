@@ -626,6 +626,12 @@ h3 {
     color:#000000;
 }
 
+h3 span {
+  background: #CE1126 no-repeat 0px 0px;
+  padding:0px 3px;
+  vertical-align: 2px;
+}
+
 
 
 .map-redPin_unselected {
