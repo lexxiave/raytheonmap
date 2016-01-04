@@ -255,6 +255,7 @@ iPad 3
    div#mobile {visibility:hidden;}
 }
 
+
 /* Safari, Chrome, Firefox Desktops and laptops ----------- */
 @media only screen  and (min-width : 639px){
   div#desktop {visibility:hidden;}
@@ -266,8 +267,8 @@ iPad 3
 @media only screen  and (min-width : 768px){
   div#desktop {visibility:hidden;}
   div#mobile {visibility:visible;} /* Conflict Samsung Galaxy Note 3 + II, S III, S4 + iPhone 4 & 6 Portrait + Landscape  ----------- */
-  li.pinblue_unselected {font-size:20px;padding: 0 12px;}
-  li.pinred_unselected {font-size:20px;padding: 0 12px;}
+  li.pinblue_unselected {font-size:20px;padding: 0 6px;}
+  li.pinred_unselected {font-size: 20px;padding: 0 6px;}
 }
 
 
@@ -359,7 +360,7 @@ iPad 3
 .litetooltip-wrapper .tooltip-arrow.top {
     margin-left: -8px;
     position: absolute;
-    left: 50%;
+    left: 35%!important;
     bottom: 0px;
     border-width: 10px 8px 0px 8px;
 }
