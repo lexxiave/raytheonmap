@@ -282,19 +282,15 @@ iPad 3
 
 /* Chrome + Firefox Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
-  div#desktop {visibility:visible;}
+  div#desktop {visibility:visible;max-width: 1300px;}
    div#mobile {visibility:hidden;}
    li.pinblue_unselected {font-size:13px;}
    li.pinred_unselected {font-size:13px;}
    li.pinred_unselected span {position: relative;top:-2px;}
 }
 
-/* Chrome + Firefox Desktops and laptops ----------- */
-@media only screen  and (min-width : 1824px) {
-  div#mobile {visibility:hidden;}
-  li.pinblue_unselected {font-size:13px;}
-  li.pinred_unselected {font-size:13px;}
-}
+
+
 
 .container {
        padding-right: 15px;
