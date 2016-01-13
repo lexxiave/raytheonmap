@@ -225,7 +225,7 @@
 /* Safari, Chrome, Firefox Desktops and laptops ----------- */
 @media only screen  and (min-width : 29px){
   div#desktop {visibility:hidden;}
-  div#mobile {visibility:visible;} 
+  div#mobile {visibility:visible;max-width: 375px;} 
 }
 
 
@@ -266,7 +266,7 @@ iPad 3
 /* Safari, Chrome, Firefox Desktops and laptops ----------- */
 @media only screen  and (min-width : 768px){
   div#desktop {visibility:hidden;}
-  div#mobile {visibility:visible;} /* Conflict Samsung Galaxy Note 3 + II, S III, S4 + iPhone 4 & 6 Portrait + Landscape  ----------- */
+  div#mobile {visibility:visible;max-width: 375px;} /* Conflict Samsung Galaxy Note 3 + II, S III, S4 + iPhone 4 & 6 Portrait + Landscape  ----------- */
   li.pinblue_unselected {font-size:20px;padding: 0 6px;}
   li.pinred_unselected {font-size: 20px;padding: 0 6px;}
 }
