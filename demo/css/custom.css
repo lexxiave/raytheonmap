@@ -299,7 +299,7 @@ iPad 3
 
     #owl-demo .item img{
         display: block;
-        width: 90%;
+        width: 100%!important;
         height: auto;
         padding-left: 0px;
     }
