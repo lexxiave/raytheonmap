@@ -669,8 +669,10 @@ ul .pinred_selected {
 
 
 .map-bluePin_selected {
-    width: 7.6153846153846154%;
-    height: 13.8475750577367205%;
+    /*width: 7.6153846153846154%;
+    height: 13.8475750577367205%;*/
+    width:0px;
+    height:0px;
     background:url('../img/bluePin_unselected.png') no-repeat 0% 0%;
 }
 
@@ -690,3 +692,36 @@ ul .pinred_selected {
     height:0px;
     background: url('../img/redPin_selected.png') no-repeat 0% 0%;
 }
+
+
+
+/* Samsung Galaxy Note 3 + II, S III, S4 + iPhone 4 & 6, Firefox Portrait + Landscape  ----------- */
+@media only screen and (min-width : 375px) {
+
+.map-redPin_selected {
+    width: 0px;
+    height: 0px;
+    background:url('../img/redPin_unselected.png') no-repeat 0% 0%;
+    background-size: 30px 44px;
+}
+
+.map-bluePin_selected:hover {
+    background: url('../img/bluePin_selected.png') no-repeat 0% 0%;
+    background-size: 30px 44px;
+}
+
+.map-bluePin_selected {
+    width: 0px;
+    height: 0px;
+    background:url('../img/bluePin_unselected.png') no-repeat 0% 0%;
+    background-size: 30px 44px;
+}
+
+.map-redPin_selected:hover {
+    width:0px;
+    height:0px;
+    background: url('../img/redPin_selected.png') no-repeat 0% 0%;
+    background-size: 30px 44px;
+}
+
+} 
